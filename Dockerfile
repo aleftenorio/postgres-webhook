@@ -28,10 +28,10 @@ RUN apk add --update --no-cache --virtual .build-deps \
   libcurl \
   libpq
 
-ENV DBNAME "postgres"
+ENV DBNAME "iglobal"
 ENV PGUSER "postgres"
-ENV PGPASS "''"
-ENV PGHOST "localhost"
+ENV PGPASS "MasterKey!!"
+ENV PGHOST "201.55.174.50"
 ENV PGPORT 5432
 ENV WEBHOOKURL "http://localhost:5000"
 ENV LOG_LEVEL "2"

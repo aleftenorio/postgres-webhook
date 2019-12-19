@@ -6,5 +6,9 @@
   {
     "table": "processo",
     "columns": "*"
+  },
+  {
+    "table": "pessoa",
+    "columns": "*"
   }
 ]
